@@ -1,0 +1,50 @@
+// Include here all Canis sass Components
+
+//////////////////// FONTS ////////////////////
+
+$font-primary:'';
+$font-primaryLight:'';
+$font-primaryBold:'';
+$font-secondary:'';
+$font-secondaryLight:'';
+$font-secondaryBold:'';
+$font-tertiary:'';
+$font-tertiaryLight:'';
+$font-tertiaryBold:'';
+
+
+
+//////////////////// COLORS ////////////////////
+
+/*** Theme colors ***/
+
+$color-primary:'';
+$color-secondary:'';
+$color-tertiary:'';
+$color-quaternary:'';
+$color-quinary:'';
+$color-senary:'';
+$color-septenary:'';
+$color-octonary:'';
+
+/*** Links colors ***/
+
+$color-link-1: '';
+$color-link-2: '';
+$color-link-3: '';
+
+/*** Links colors ***/
+
+$color-link-1: '';
+$color-link-2: '';
+$color-link-3: '';
+
+
+//////////////////// BREAKPOINTS ////////////////////
+
+$extraSmallDeviceOnly: 'only screen and (min-width: 320px) and (max-width: 767px)';
+$smallDevices: 'only screen and (min-width: 768px)';
+$smallDevicesOnly: 'only screen and (min-width: 768px) and (max-width: 991px)';
+$mediumDevices: 'only screen and (min-width: 992px)';
+$mediumDevicesOnly: 'only screen and (min-width: 992px)';
+$largeDevices: 'only screen and (min-width: 1200px)';

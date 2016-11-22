@@ -1,0 +1,32 @@
+{{#extend "layout"}}
+    {{#append "head"}}
+        <link rel="stylesheet" href="css/styles.css" />
+    {{/append}}
+
+    {{#replace "header"}}
+
+    {{> header}}
+
+    {{/replace}}
+
+
+    {{#replace "body"}}
+        <h2>Welcome Home of {{projectName}}</h2>
+
+        
+        <p>3 + 5 = sssssssssssssssssssssssss12312s</p>
+        
+        <p>md5 file : </p>
+        
+
+        <p>Hola Home1</p>
+        <p>Hola Home1</p>
+
+    {{/replace}}
+
+    {{#prepend "footer"}}
+        <script src="assets/js/analytics.js"></script>
+    {{/prepend}}
+    
+    {{> footer}}
+{{/extend}}

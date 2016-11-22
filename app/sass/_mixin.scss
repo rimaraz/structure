@@ -1,0 +1,20 @@
+
+// Set a rem font size with pixel fallback
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+@mixin browser_pre($name, $argument) {
+    #{$name}: $argument;
+    -webkit-#{$name}: $argument;
+    -moz-#{$name}: $argument;
+    -ms-#{$name}: $argument;
+    -o-#{$name}: $argument;
+}

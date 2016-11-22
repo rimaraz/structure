@@ -1,0 +1,44 @@
+// Include here all global sass Components
+
+@import '_normalize.scss';
+
+@import '_mixin.scss';
+@import '_vars.scss';
+
+
+// Include here all MOBILE sass Components
+@import 'mobile/common/_base.scss';
+
+@media #{$extraSmallDeviceOnly}{
+	
+}
+
+
+// Include here all TABLET sass Components
+
+@media #{$smallDevices}{
+
+}
+
+@media #{$smallDevicesOnly}{
+
+}
+
+
+// Include here all DESKTOP sass Components
+
+@media #{$mediumDevices}{
+
+}
+
+@media #{$mediumDevicesOnly}{
+	
+}
+
+@media #{$largeDevices}{
+
+}
+
+
+
+
